@@ -1,4 +1,4 @@
-# A-simple-Portfolio
+# A-simple-Portfolio-and-Calculator 
 AltSchool of Engineering First Semester Assignment 1
 Objective: Build a simple HTML & CSS driven web application made up of a few linked pages and styled content
 Create a HTML page with the following information: Home page which you will call About Me, contact page, register page and login page
