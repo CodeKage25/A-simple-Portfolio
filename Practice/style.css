@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,400,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,700&display=swap');
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("anonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("anonymousPro-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --grey-color: grey;
+}
+
+.avatar {
+    width: 20rem;
+    height: 10rem;
+    object-fit: contain;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    position: relative; 
+    width: 12.5rem; 
+    height: 12.5rem; 
+    overflow: hidden; 
+    border-radius: 50%;
+}
+
+.avatar img {
+    height: auto;
+    width: 100%;
+}
+
+/* main {
+    position: relative;
+} */
+
+
+.box {
+    flex-grow: 5;
+}
+
+.main-section {
+    position: absolute;
+    top: 4rem;
+    left: 40rem;
+    
+    
+}
+
+.secondary-section {
+    position: absolute;
+    top: 25rem;
+    
+}
+
+.secondary-section__item {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10.5rem;
+    /* justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: stretch;
+    align-content: center; */
+    
+}
+.secondary-section__item > div {
+    margin: 1rem 3rem;
+   padding: 1rem 3rem;
+   /* font-size: 30px; */
+   list-style: none;
+   
+}
+
+.secondary-section__item li {
+    text-decoration: none;
+
+}
+
+.main-section p {
+    text-align: center;
+}
+
+.main-section__name {
+    position: relative;
+    right: 2rem;
+    font-style: italic;
+    color: rgba(248, 159, 174, 0.8);
+
+}
+
+.secondary-section__details {
+    color: white;
+    background: var(--grey-color);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.main p {
+    position: relative;
+    right: 12rem;
+    font-weight: bold;
+}
+
+.main-header {
+    background: var(--grey-color);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0rem 0rem;
+    padding: 0.5rem 1rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    size: 10rem;
+}
+
+.main-nav {
+    text-decoration: none;
+}
+
+.main-nav__items {
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    
+    
+    
+}
+
+.main-nav__item {
+    margin: 0.5rem 1rem;
+
+}
+
+.main-nav__item a, 
+.mobile-nav__item a {
+    text-decoration: none;
+    /* color: var(--dark-green); */
+    font-weight: bold;
+    padding: 0.2rem 0;
+    /* text-align: right; */
+    position: relative;
+    left: 68rem;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+/* .list {
+    text-decoration: none;
+} */
+
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: "AnonymousPro";
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("pexels-alena-koval-961402.jpg") center/cover no-repeat border-box,
+    #ff1b68;
+    /* margin: 0; */
+    position: relative;
+    height: 100%;
+    font-weight: 700;
+}
+
+html {
+    height: 100%;
+}
+
+.items li {
+    list-style: none;
+}
+
+.main-footer {
+    background: black;
+    /* padding: 2rem;
+    margin-top: 3rem; */
+    /* grid-row: 3 / 4; */
+    position: relative;
+    top: 50rem;
+    width: 100vw;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer__link {
+    margin: 0.5rem 1rem;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
+}
+
+.items li {
+    padding: 0.5rem 0;
+
+}
